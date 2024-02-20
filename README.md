@@ -2,7 +2,7 @@
 ## Project Overview
 Welcome everyone, This project uses Large Language Models to answer user queries regarding USF. Ask questions about registration, whom to contact for approvals and much more!
 
-A user-friendly connection with Large Language Models (LLMs). I've utilized tools like Langchain, LLM, Gardio, and FAISS to simplify the process of asking and answering questions about PDFs. 
+A user-friendly connection with Large Language Models (LLMs). I've utilized tools like Langchain, LLM, Gardio, and FAISS to answer student queries regarding USF.
 
 
 The repository contains a complete application that makes question and answering a breeze.
