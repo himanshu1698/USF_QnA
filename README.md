@@ -1,35 +1,28 @@
 # USF QnA with Langchain RAG and LLMs
 ## Project Overview
-Welcome everyone, This project uses Large Language Models to answer user queries regarding USF. Ask questions about registration, whom to contact for approvals and much more!
+Hi!
 
-A user-friendly connection with Large Language Models (LLMs). I've utilized tools like Langchain, LLM, Gardio, and FAISS to answer student queries regarding USF.
+This project harnesses the power of Large Language Models (LLMs) to provide seamless answers to user queries related to the University of San Francisco (USF). Whether you have questions about registration, contact information for approvals, or any other inquiries, this application has got you covered.
 
-
-The repository contains a complete application that makes question and answering a breeze.
-
-
+The user-friendly interface connects with LLMs, utilizing tools such as Langchain, LLM, Gardio, and FAISS to facilitate efficient communication and address student queries regarding USF.
 
 ## Key Features
 
 ### Easy Interaction
 
-Gone are the days of reading through lengthy documents to find answers. With this you can effortlessly receive a multitude of responses without the need to go through the entire document.
+Say goodbye to the days of sifting through lengthy documents for answers. With this application, you can effortlessly receive a variety of responses without the need to navigate through extensive documentation.
 
 ### Quick Q&A
 
-This project enables you to pose questions as if you're conversing with a person. The system intelligently extracts the right answers from your USF's Database, eliminating the need for manual searches through lengthy documents.
+This project allows you to ask questions in a conversational manner, simulating interaction with a person. The system intelligently extracts the correct answers from the USF database, eliminating the need for manual searches through cumbersome documents.
 
-Note : If you utilize a quantized LLAMA model, the outcomes might contrast when compared to results achieved using `FP16` or `FP32` models. When working with Colab, you have the option to employ `load_int8:true` in the configuration file.
+*Note: If you opt for a quantized LLAMA model, the outcomes may differ when compared to results achieved using `FP16` or `FP32` models. When working with Colab, you can use `load_int8:true` in the configuration file.*
 
-You can try using colab notebook : <a target="_blank" href="https://colab.research.google.com/drive/1KT1McE-o0DPxw_4VYKgvYEGQBInkMtuQ?usp=sharing">
-  <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
-</a>
-
+You can try the application using the Colab notebook: [Open In Colab](https://colab.research.google.com/drive/1KT1McE-o0DPxw_4VYKgvYEGQBInkMtuQ?usp=sharing)
 
 ### Embedding Loading
 
-The project leverages document embeddings, enhancing the efficiency of search and analysis. These embeddings are stored locally, ensuring rapid access whenever needed.
-
+The project employs document embeddings to enhance the efficiency of search and analysis. These embeddings are stored locally, ensuring rapid access whenever needed.
 
 ## Project Components
 
@@ -39,15 +32,12 @@ The project leverages document embeddings, enhancing the efficiency of search an
 - **Sentence Embeddings**: thenlper/gte-large
 - **PDF Loader**: PyPDFLoader
 
-
 ## Getting Started
 
 To start using this project, follow these steps:
 
 1. Clone the repository to your local machine.
-2. Install the required dependencies,using  ```pip install -r requirements```.
-3. Run the ```python app.py``` application and begin interacting with your PDFs using natural language.
-
----
+2. Install the required dependencies using `pip install -r requirements`.
+3. Run the `python app.py` application and begin interacting with your PDFs seamlessly.
 
 *Note:You have the flexibility to select different sentence embeddings and LLM models by just changing configure file.
