@@ -1,4 +1,4 @@
-# USF QnA with AI
+# USF QnA with Langchain RAG and LLMs
 ## Project Overview
 Welcome everyone, This project uses Large Language Models to answer user queries regarding USF. Ask questions about registration, whom to contact for approvals and much more!
 
